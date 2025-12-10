@@ -1,0 +1,27 @@
+CREATE DATABASE voterdb;
+
+USE voterdb;
+
+CREATE TABLE voters (
+    voterId VARCHAR(20) PRIMARY KEY,
+    name VARCHAR(100),
+    age INT,
+    address VARCHAR(200),
+
+    fatherMotherName VARCHAR(100),
+    gender VARCHAR(10),
+    mobile VARCHAR(15),
+    email VARCHAR(50),
+    aadhaar VARCHAR(20),
+    dob VARCHAR(20),
+    nationality VARCHAR(50),
+
+    district VARCHAR(50),
+    state VARCHAR(50),
+    pincode VARCHAR(10),
+
+    constituency VARCHAR(50),
+    boothNo VARCHAR(20),
+    voterType VARCHAR(20),
+    registrationDate VARCHAR(20)
+);
